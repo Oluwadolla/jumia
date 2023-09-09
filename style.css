@@ -189,7 +189,7 @@ footer p a{
     font-weight: bold;
 }
 
-/* responsive */
+/* resonsive */
 
 @media (max-width: 820px){
     .menu-btn{
@@ -197,7 +197,7 @@ footer p a{
         z-index: 999;
     }
     .menu-btn i.active::before{
-        content: "\food";
+        content: "\f00d";
     }
 
     .navbar .menu{
@@ -211,17 +211,18 @@ footer p a{
         transition: all 0.3 ease;
     }
 
-    .navbar .menu.active{
-        left: 0;
-    }
 
+    .navbar .menu li a {
+        margin: 10px 0;
+        font-size: 25px;
+    }
     .navbar .menu li{
         display: flex;
         justify-content: center;
     }
 
-    .navbar .menu li a {
+    .navbar .menu li a{
         margin: 10px 0;
-        font-size: 25px;
+        font-size: 15px;
     }
 }
